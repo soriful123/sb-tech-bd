@@ -1,0 +1,43 @@
+@media screen and (max-width:576px) {
+
+    .trus-company,
+    .desktop-view {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:868px) {
+    .trus-company {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .course,
+    .desktop-view {
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (min-width:869px) and (max-width:1200px) {
+
+    .mobile-view {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1201px) and (max-width:1440px) {
+
+    .mobile-view {
+        display: none;
+    }
+
+}
