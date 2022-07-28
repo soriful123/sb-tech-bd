@@ -1,4 +1,46 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.548);
+    z-index: 1;
+
+}
+
 @media screen and (max-width:576px) {
+
+    .carousel-inner img {
+        height: 100vh;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
 
     .trus-company,
     .desktop-view {
@@ -11,6 +53,10 @@
 @media screen and (min-width:577px) and (max-width:868px) {
     .trus-company {
         display: none;
+    }
+
+    .carousel-inner img {
+        height: 100vh;
     }
 
     .card {
@@ -28,6 +74,10 @@
 
 @media screen and (min-width:869px) and (max-width:1200px) {
 
+    .carousel-inner img {
+        height: 100vh;
+    }
+
     .mobile-view {
         display: none;
     }
@@ -35,6 +85,10 @@
 }
 
 @media screen and (min-width:1201px) and (max-width:1440px) {
+
+    .carousel-inner img {
+        height: 100vh;
+    }
 
     .mobile-view {
         display: none;
