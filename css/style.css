@@ -99,8 +99,10 @@
 
 @media screen and (min-width:869px) and (max-width:1200px) {
 
+    
+
     .carousel-inner img {
-        height: 80vh;
+        height: 100vh;
     }
 
     .mobile-view {
@@ -108,11 +110,11 @@
     }
 
     .carousel-caption {
-        bottom: 300px;
+        bottom: 200px;
     }
 
     .carousel-inner {
-        height: 100vh;
+        height: 80vh;
     }
 
 }
